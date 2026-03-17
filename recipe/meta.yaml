@@ -1,5 +1,5 @@
 {% set name = "rexmex" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rexmex-{{ version }}.tar.gz
-  sha256: f325ddd67466d399e78a76f6ea11aa2c7d1f74be331d7653767ddcca11a71b01
+  sha256: c31c16863d786ddd8b287f0047c8f892955b631501cadef10032c0bafe870554
 
 build:
   number: 0
